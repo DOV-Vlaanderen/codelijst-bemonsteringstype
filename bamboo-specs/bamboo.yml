@@ -1,9 +1,9 @@
 ---
 version: 2
 plan:
-  project-key: CODELIJST
-  key: ARCHETYPE
-  name: codelijst-archetype
+  project-key: DOV
+  key: DOVBEMONSTERINGSTYPE
+  name: codelijst-bemonsteringstype
 
 triggers:
   - polling: 130
@@ -69,7 +69,7 @@ Release:
 ---
 version: 2
 plan:
-  key: CODELIJST-ARCHETYPE
+  key: DOV-DOVBEMONSTERINGSTYPE
 
 plan-permissions:
   - groups:
