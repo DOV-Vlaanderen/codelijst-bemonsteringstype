@@ -76,6 +76,7 @@ plan-permissions:
       - bamboo-admin
       - bamboo-release
       - developer-admin
+      - dov-admin
     permissions:
       - view
       - edit
