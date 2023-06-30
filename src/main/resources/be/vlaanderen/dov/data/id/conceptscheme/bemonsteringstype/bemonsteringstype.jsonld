@@ -1,0 +1,134 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:ongeroerd",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Ongeroerd                        "
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "                         "
+            },
+            "dc:identifier": "ongeroerd         ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:bemonsteringstype",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Codelijst bemonsteringstype.     "
+            },
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:geroerd"
+                },
+                {
+                    "@id": "ct:ongeroerd"
+                },
+                {
+                    "@id": "ct:vloeistof"
+                }
+            ],
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "Aard van de Bemonstering."
+            },
+            "dc:identifier": "bemonsteringstype ",
+            "@type": "skos:ConceptScheme"
+        },
+        {
+            "@id": "colt:bemonsteringstypes",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van bemonsteringstypes."
+            },
+            "skos:member": [
+                {
+                    "@id": "ct:geroerd"
+                },
+                {
+                    "@id": "ct:ongeroerd"
+                },
+                {
+                    "@id": "ct:vloeistof"
+                }
+            ],
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "                         "
+            },
+            "dc:identifier": "bemonsteringstypes",
+            "@type": "skos:Collection"
+        },
+        {
+            "@id": "ct:geroerd",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geroerd                          "
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "                         "
+            },
+            "dc:identifier": "geroerd           ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:vloeistof",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Vloeistof                        "
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringstype"
+            },
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "                         "
+            },
+            "dc:identifier": "vloeistof         ",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "file:///tmp/RtmpIZU6mu/filec97e5fd15dcd.jsonld",
+            "skos:member": [
+                {
+                    "@id": "cs:bemonsteringstype"
+                },
+                {
+                    "@id": "colt:bemonsteringstypes"
+                }
+            ]
+        }
+    ],
+    "@context": {
+        "cs": "https://data.dov.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.dov.vlaanderen.be/id/concept/bemonsteringstype/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.dov.vlaanderen.be/id/collection/bemonsteringstype/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

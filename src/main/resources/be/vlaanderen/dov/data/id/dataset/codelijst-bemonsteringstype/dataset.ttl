@@ -1,0 +1,249 @@
+@prefix access_right:        <http://publications.europa.eu/resource/authority/access-right/> .
+@prefix adms:                <http://www.w3.org/ns/adms#> .
+@prefix assettype:           <http://purl.org/adms/assettype/> .
+@prefix country:             <http://publications.europa.eu/resource/authority/country/> .
+@prefix datatheme_be:        <http://vocab.belgif.be/auth/datatheme/> .
+@prefix datatheme_eu:        <http://publications.europa.eu/resource/authority/data-theme/> .
+@prefix dc:                  <http://purl.org/dc/elements/1.1/> .
+@prefix dcat:                <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:             <http://purl.org/dc/terms/> .
+@prefix eurovoc:             <http://eurovoc.europa.eu/> .
+@prefix file_type:           <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix foaf:                <http://xmlns.com/foaf/0.1/> .
+@prefix formats:             <http://www.w3.org/ns/formats/> .
+@prefix frequency:           <http://publications.europa.eu/resource/authority/frequency/> .
+@prefix gemet:               <http://www.eionet.europa.eu/gemet/concept/> .
+@prefix language:            <http://publications.europa.eu/resource/authority/language/> .
+@prefix omg_catalog:         <https://data.omgeving.vlaanderen.be/id/catalog/> .
+@prefix omg_collection:      <https://data.omgeving.vlaanderen.be/id/collection/> .
+@prefix omg_conceptscheme:   <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix omg_dataservice:     <https://data.omgeving.vlaanderen.be/id/dataservice/> .
+@prefix omg_dataset:         <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix omg_distribution:    <https://data.omgeving.vlaanderen.be/id/distribution/> .
+@prefix omg_graph:           <https://data.omgeving.vlaanderen.be/id/graph/> .
+@prefix omg_graphcollection: <https://data.omgeving.vlaanderen.be/id/graphcollection/> .
+@prefix omg_id:              <https://data.omgeving.vlaanderen.be/id/> .
+@prefix omg_named_graph:     <https://data.omgeving.vlaanderen.be/id/namedgraph/> .
+@prefix omg_ontology:        <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix omg_package:         <https://data.omgeving.vlaanderen.be/id/package/> .
+@prefix omg_periodoftime:    <https://data.omgeving.vlaanderen.be/id/periodoftime/> .
+@prefix omg_service:         <https://data.omgeving.vlaanderen.be/id/service/> .
+@prefix omg_vcard:           <https://data.omgeving.vlaanderen.be/id/vcard/> .
+@prefix ovo:                 <http://data.vlaanderen.be/id/organisatie/> .
+@prefix owl:                 <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:                <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd:                  <http://www.w3.org/ns/sparql-service-description#> .
+@prefix skos:                <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:                <http://spdx.org/rdf/terms#> .
+@prefix ssd:                 <http://www.w3.org/ns/sparql-service-description#> .
+@prefix vcard:               <http://www.w3.org/2006/vcard/ns#> .
+@prefix void:                <http://rdfs.org/ns/void#> .
+@prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
+
+omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld
+        rdf:type                    dcat:Distribution ;
+        rdfs:label                  "Codelijst bemonsteringstype, in jsonld rdf-formaat."@nl ;
+        dc:identifier               "be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld" ;
+        dc:language                 "NA"@nl ;
+        dc:source                   "NA" ;
+        dcterms:accessRights        access_right:PUBLIC ;
+        dcterms:accrualPeriodicity  <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:alternative         "NA"@nl ;
+        dcterms:description         "Codelijst bemonsteringstype, geserialiseerd in een jsonld bestand."@nl ;
+        dcterms:format              file_type:JSON_LD ;
+        dcterms:hasVersion          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:identifier          omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld ;
+        dcterms:isVersionOf         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:issued              "2023-06-30"^^xsd:date ;
+        dcterms:language            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:license             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:publisher           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:rightsHolder        ovo:OVO003751 ;
+        dcterms:spatial             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:temporal            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:title               "Codelijst bemonsteringstype in jsonld rdf-formaat."@nl ;
+        void:rootResource           <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:downloadLocation       <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:packageFileName        "NA" ;
+        spdx:packageName            "NA" ;
+        owl:versionInfo             "NA" ;
+        dcat:accessURL              <https://github.com/milieuinfo/codelijst-bemonsteringstype.git> ;
+        dcat:compressFormat         <http://www.iana.org/assignments/media-types/application/gzip> ;
+        dcat:contactPoint           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:dataset                <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:distribution           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:downloadURL            <https://datasets.dov.vlaanderen.be/be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld> ;
+        dcat:landingPage            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:mediaType              <https://www.iana.org/assignments/media-types/application/ld+json> ;
+        dcat:servesDataset          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:theme                  <file:///tmp/RtmpwS2SWf/NA> ;
+        foaf:page                   <https://data.dov.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld.html> .
+
+omg_dataset:codelijst-bemonsteringstype.0.1.0
+        rdf:type                    dcat:Dataset ;
+        rdfs:label                  "Codelijst bemonsteringstype (0.1.0)"@nl ;
+        dc:identifier               "be.vlaanderen.dov.data.id.dataset.codelijst-bemonsteringstype.0.1.0" ;
+        dc:language                 "nl"@nl ;
+        dc:source                   "NA" ;
+        dcterms:accessRights        access_right:PUBLIC ;
+        dcterms:accrualPeriodicity  frequency:IRREG ;
+        dcterms:alternative         "Dataset codelijst bemonsteringstype"@nl ;
+        dcterms:description         "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid."@nl ;
+        dcterms:format              <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:hasVersion          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:identifier          omg_dataset:codelijst-bemonsteringstype.0.1.0 ;
+        dcterms:isVersionOf         omg_dataset:codelijst-bemonsteringstype ;
+        dcterms:issued              "2023-06-30"^^xsd:date ;
+        dcterms:language            language:NLD ;
+        dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+        dcterms:publisher           ovo:OVO003323 ;
+        dcterms:rightsHolder        ovo:OVO003751 ;
+        dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
+        dcterms:temporal            omg_periodoftime:dataset_omg ;
+        dcterms:title               "Codelijst bemonsteringstype"@nl ;
+        void:rootResource           omg_conceptscheme:bemonsteringstype ;
+        spdx:downloadLocation       <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:packageFileName        "NA" ;
+        spdx:packageName            "NA" ;
+        owl:versionInfo             "0.1.0" ;
+        dcat:accessURL              <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:compressFormat         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:contactPoint           omg_vcard:helpdesk ;
+        dcat:dataset                <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:distribution           omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl , omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld , omg_package:be.vlaanderen.dov.data.id.graph.codelijst-bemonsteringstype.0.1.0 , omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv ;
+        dcat:downloadURL            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:landingPage            <https://data.dov.vlaanderen.be/doc/catalog/codelijst.html> ;
+        dcat:mediaType              <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:servesDataset          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:theme                  gemet:10087 , datatheme_eu:ENVI , eurovoc:2407 , datatheme_be:ENVI ;
+        foaf:page                   <https://data.dov.vlaanderen.be/doc/dataset/codelijst-bemonsteringstype.0.1.0.html> .
+
+omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl
+        rdf:type                    dcat:Distribution ;
+        rdfs:label                  "Codelijst bemonsteringstype, in Turtle rdf-formaat."@nl ;
+        dc:identifier               "be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl" ;
+        dc:language                 "NA"@nl ;
+        dc:source                   "NA" ;
+        dcterms:accessRights        access_right:PUBLIC ;
+        dcterms:accrualPeriodicity  <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:alternative         "NA"@nl ;
+        dcterms:description         "Codelijst bemonsteringstype, geserialiseerd in Turtle bestand."@nl ;
+        dcterms:format              file_type:RDF_TURTLE ;
+        dcterms:hasVersion          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:identifier          omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl ;
+        dcterms:isVersionOf         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:issued              "2023-06-30"^^xsd:date ;
+        dcterms:language            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:license             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:publisher           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:rightsHolder        ovo:OVO003751 ;
+        dcterms:spatial             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:temporal            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:title               "Codelijst bemonsteringstype in Turtle rdf-formaat."@nl ;
+        void:rootResource           <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:downloadLocation       <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:packageFileName        "NA" ;
+        spdx:packageName            "NA" ;
+        owl:versionInfo             "NA" ;
+        dcat:accessURL              <https://github.com/milieuinfo/codelijst-bemonsteringstype.git> ;
+        dcat:compressFormat         <http://www.iana.org/assignments/media-types/application/gzip> ;
+        dcat:contactPoint           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:dataset                <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:distribution           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:downloadURL            <https://datasets.dov.vlaanderen.be/be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl> ;
+        dcat:landingPage            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:mediaType              <https://www.iana.org/assignments/media-types/text/turtle> ;
+        dcat:servesDataset          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:theme                  <file:///tmp/RtmpwS2SWf/NA> ;
+        foaf:page                   <https://data.dov.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl.html> .
+
+omg_catalog:codelijst
+        rdf:type      dcat:Catalog ;
+        dcat:dataset  omg_dataset:codelijst-bemonsteringstype .
+
+<file:///tmp/RtmpwS2SWf/NA>
+        dcterms:hasVersion  omg_dataset:codelijst-bemonsteringstype.0.1.0 .
+
+omg_dataset:codelijst-bemonsteringstype
+        rdf:type            dcat:Dataset ;
+        dcterms:hasVersion  omg_dataset:codelijst-bemonsteringstype.0.1.0 .
+
+omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv
+        rdf:type                    dcat:Distribution ;
+        rdfs:label                  "Codelijst bemonsteringstype, in text/csv formaat."@nl ;
+        dc:identifier               "be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv" ;
+        dc:language                 "NA"@nl ;
+        dc:source                   "NA" ;
+        dcterms:accessRights        access_right:PUBLIC ;
+        dcterms:accrualPeriodicity  <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:alternative         "NA"@nl ;
+        dcterms:description         "Codelijst bemonsteringstype, geserialiseerd in csv tabelformaat."@nl ;
+        dcterms:format              file_type:CSV ;
+        dcterms:hasVersion          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:identifier          omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv ;
+        dcterms:isVersionOf         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:issued              "2023-06-30"^^xsd:date ;
+        dcterms:language            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:license             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:publisher           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:rightsHolder        ovo:OVO003751 ;
+        dcterms:spatial             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:temporal            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:title               "Codelijst bemonsteringstype in text/csv formaat."@nl ;
+        void:rootResource           <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:downloadLocation       <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:packageFileName        "NA" ;
+        spdx:packageName            "NA" ;
+        owl:versionInfo             "NA" ;
+        dcat:accessURL              <https://github.com/milieuinfo/codelijst-bemonsteringstype.git> ;
+        dcat:compressFormat         <http://www.iana.org/assignments/media-types/application/gzip> ;
+        dcat:contactPoint           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:dataset                <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:distribution           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:downloadURL            <https://datasets.dov.vlaanderen.be/be.vlaanderen.dov.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv> ;
+        dcat:landingPage            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:mediaType              <https://www.iana.org/assignments/media-types/text/csv> ;
+        dcat:servesDataset          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:theme                  <file:///tmp/RtmpwS2SWf/NA> ;
+        foaf:page                   <https://data.dov.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv.html> .
+
+omg_package:be.vlaanderen.dov.data.id.graph.codelijst-bemonsteringstype.0.1.0
+        rdf:type                    dcat:Distribution , spdx:Package ;
+        rdfs:label                  "Package codelijst-bemonsteringstype"@nl ;
+        dc:identifier               "be.vlaanderen.dov.data.id.graph.codelijst-bemonsteringstype.0.1.0" ;
+        dc:language                 "NA"@nl ;
+        dc:source                   "NA" ;
+        dcterms:accessRights        access_right:PUBLIC ;
+        dcterms:accrualPeriodicity  <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:alternative         "NA"@nl ;
+        dcterms:description         "Codelijst bemonsteringstype, Jar maven package."@nl ;
+        dcterms:format              file_type:JAR ;
+        dcterms:hasVersion          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:identifier          omg_package:be.vlaanderen.dov.data.id.graph.codelijst-bemonsteringstype.0.1.0 ;
+        dcterms:isVersionOf         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:issued              "2023-06-30"^^xsd:date ;
+        dcterms:language            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:license             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:publisher           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:rightsHolder        ovo:OVO003751 ;
+        dcterms:spatial             <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:temporal            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcterms:title               "Codelijst bemonsteringstype in jar-formaat."@nl ;
+        void:rootResource           <file:///tmp/RtmpwS2SWf/NA> ;
+        spdx:downloadLocation       <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/dov/data/id/graph/codelijst-bemonsteringstype/0.1.0/codelijst-bemonsteringstype-0.1.0.jar> ;
+        spdx:packageFileName        "codelijst-bemonsteringstype-0.1.0.jar" ;
+        spdx:packageName            "be.vlaanderen.dov.data.id.graph.codelijst-bemonsteringstype" ;
+        spdx:versionInfo            "0.1.0" ;
+        owl:versionInfo             "NA" ;
+        dcat:accessURL              <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:compressFormat         <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:contactPoint           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:dataset                <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:distribution           <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:downloadURL            <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/dov/data/id/graph/codelijst-bemonsteringstype/0.1.0/codelijst-bemonsteringstype-0.1.0.jar> ;
+        dcat:landingPage            <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:mediaType              <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:servesDataset          <file:///tmp/RtmpwS2SWf/NA> ;
+        dcat:theme                  <file:///tmp/RtmpwS2SWf/NA> ;
+        foaf:page                   <file:///tmp/RtmpwS2SWf/NA> .
